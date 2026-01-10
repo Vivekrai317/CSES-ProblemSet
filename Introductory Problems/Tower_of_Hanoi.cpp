@@ -12,7 +12,7 @@ void towerOfHanoi(int discs, int A, int C, int B){
 int main(){
  int n;
  cin>>n;
- cout<<(1<<n)-1<<endl;
+ cout<<(1<<n)-1 <<endl;
  towerOfHanoi(n,1,3,2);
 return 0;
 }
